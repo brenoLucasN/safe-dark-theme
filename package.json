@@ -1,0 +1,25 @@
+{
+  "name": "safe-dark-theme",
+  "displayName": "safe-dark-theme",
+  "description": "A dark theme with safe colors, based on cursor color theme.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brenoLucasN/safe-dark-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "safe dark theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/safe-dark-theme-color-theme.json"
+      }
+    ]
+  }
+}
