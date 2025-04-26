@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum Demo</title>
+</head>
+<body>
+    <header>
+        <h1>Lorem Ipsum Demo</h1>
+        <p>A sample to showcase the theme coloring</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>What is Lorem Ipsum?</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="highlight">
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                </p>
+            </div>
+        </section>
+
+        <ul>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipiscing elit</li>
+            <li>Sed do eiusmod tempor</li>
+        </ul>
+    </main>
+
+    <script>
+        // A small script to demonstrate JS/HTML coloring
+        document.addEventListener('DOMContentLoaded', function() {
+            const now = new Date();
+            console.log(`Page loaded at ${now.toLocaleTimeString()}`);
+            
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section, index) => {
+                section.dataset.index = index + 1;
+            });
+        });
+    </script>
+</body>
+</html>

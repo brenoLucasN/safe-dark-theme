@@ -1,16 +1,48 @@
-# safe-dark README
+# Safe Dark Theme
 
-## Working with Markdown
+A modern, eye-friendly dark theme for Visual Studio Code that enhances your coding experience with a harmonious color scheme designed for long coding sessions. Inspired by and based on the color palette of the Cursor theme color.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+1. Open VSCode
+2. Go to Extensions tab (Ctrl+Shift+X)
+3. Search for "Safe Dark Theme"
+4. Click Install
+5. Select the theme in Preferences > Color Theme
 
-## For more information
+## Features
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- 🌙 Carefully crafted dark color palette
+- 👁️ Optimal contrast for reduced eye strain
+- 🎨 Aesthetically pleasing syntax highlighting
+- 🧠 Semantically meaningful color choices
+- ⚡ Support for popular languages and frameworks
 
-**Enjoy!**
+## Examples
+
+Here are some examples of how your code will look with Safe Dark Theme:
+
+### Python
+![Python](./images/python_example.png)
+
+### TypeScript
+![TypeScript](./images/typescript_example.png)
+
+### HTML
+![HTML](./images/html_example.png)
+
+### Rust
+![Rust](./images/rust_example.png)
+
+### Go
+![Go](./images/go_example.png)
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests on the repository:
+
+[https://github.com/brenoLucasN/safe-dark-theme.git](https://github.com/brenoLucasN/safe-dark-theme.git)
+
+## License
+
+MIT

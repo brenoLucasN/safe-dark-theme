@@ -1,14 +1,29 @@
 {
   "name": "safe-dark-theme",
-  "displayName": "safe-dark-theme",
+  "displayName": "Safe Dark Theme",
   "description": "A dark theme with safe colors, based on cursor color theme.",
-  "version": "0.0.1",
+  "version": "1.0.2",
+  "publisher": "brenoLucasN",
+  "license": "MIT",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/brenoLucasN/safe-dark-theme.git"
   },
+  "galleryBanner": {
+    "color": "#1E1E1E",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "safe colors",
+    "cursor theme"
+  ],
+  "markdown": "github",
+  "pricing": "Free",
   "engines": {
-    "vscode": "^1.99.0"
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Themes"
@@ -21,5 +36,9 @@
         "path": "./themes/safe-dark-theme-color-theme.json"
       }
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/brenoLucasN/safe-dark-theme/issues"
+  },
+  "homepage": "https://github.com/brenoLucasN/safe-dark-theme/blob/master/README.md"
 }
